@@ -1,0 +1,8 @@
+project:
+  type: default
+  output-dir: docs
+
+title: "Reference Solutions for MA114 Final Review"
+author: "Dr. Ye"
+date: today
+date-format: "MMMM, YYYY"
