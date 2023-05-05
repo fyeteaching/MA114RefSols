@@ -3,30 +3,39 @@ title: "Reference Solutions for MA114 Final Review"
 author: "Dr. Ye"
 format: 
   html:
-    # theme: pandoc
-    header-includes: |
-      <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');</style>
-    mainfont: Nunito
-    backgroundcolor: '#daffef'
-    self-contained: true
-    html-math-method:
-      method: mathjax
-      url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
-    license: CC BY-NC-SA 3.0
-  pdf: 
-    documentclass: article
-    classoption: [12pt]
-    geometry:
-      - margin=0.8in
-    fontfamily: libertinus
-    colorlinks: true
-    header-includes:
-      - \usepackage{fancyhdr}
-      - \fancyhf{}
-      - \pagestyle{fancy}
-      - \lhead{Winter 2023}
-      - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
-    keep-tex: true
+      abstract: "Those references solutions are for MA114 final review of QCC. A pdf version can be found at <https://fyeteaching.github.io/MA114RefSols/main.pdf>. Please let me know if you see any mistakes. Thank you!"
+      # theme: pandoc
+      header-includes: |
+        <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');</style>
+      mainfont: Nunito
+      backgroundcolor: '#daffef'
+      self-contained: true
+      html-math-method:
+        method: mathjax
+        url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
+      license: CC BY-NC-SA 3.0
+      comments:
+        hypothesis: true
+      output-file: index.html
+  pdf:
+      abstract: "Those references solutions are for MA114 final review of QCC. A web version can be found at <https://fyeteaching.github.io/MA114RefSols/>. Please let me know if you see any mistakes. Thank you!" 
+      documentclass: article
+      classoption: [12pt]
+      geometry:
+        - margin=0.8in
+      fontfamily: libertinus
+      colorlinks: true
+      header-includes:
+        - \usepackage{datetime}
+        - \newdateformat{mydate}{\monthname[\THEMONTH], \THEYEAR}
+        - \usepackage{fancyhdr}
+        - \fancyhf{}
+        - \pagestyle{fancy}
+        - \lhead{\mydate{\today}}
+        - '\rhead{Reuse: \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{CC BY-NC-SA 3.0}}'
+      keep-tex: true
+      output-file: main.pdf
+      latex-clean: true
 ---
 
 1. Using calculator to calculate, you will find that the product $AB$ is
