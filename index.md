@@ -101,9 +101,9 @@ format:
     $$
     \begin{aligned}
     &(8- 2~i)(6 + 3~i)\\
-    =& 48 + 34~i -12~i -6~i^2\\
+    =& 48 + 24~i -12~i -6~i^2\\
     =& 48 + 12 ~i - 6(-1)\\
-    =& 48 + 12 ~i 6\\
+    =& 48 + 12 ~i + 6\\
     = & 54+12~i.  
     \end{aligned}
     $$
@@ -169,7 +169,7 @@ format:
     \begin{aligned}
       \frac{4-3\sqrt{2}}{6+\sqrt{2}}
       =&\frac{(4-3\sqrt{2})(6-\sqrt{2})}{(6+\sqrt{2})(6-\sqrt{2})}\\
-      =&\frac{24-4\sqrt{2}-18\sqrt{2}-3(\sqrt{2})^2}{6^2-(\sqrt{2})^2}\\
+      =&\frac{24-4\sqrt{2}-18\sqrt{2}+3(\sqrt{2})^2}{6^2-(\sqrt{2})^2}\\
       =&\frac{30 - 22 \sqrt{2}}{34}\\
       =&\frac{15 - 11 \sqrt{2}}{17}
     \end{aligned}
@@ -225,5 +225,5 @@ format:
     ![](y=-3sin(2x).png){width=80%}
     
     b) The amplitude of $y=4\cos\left(\frac{\pi x}{3}\right)$ is $|4|=4$. The period is $\frac{2\pi}{\frac{\pi}{3}}=6$. The graph is shown as follows.
-    ![](y=4cos(pix2).png){width=80%}
+    ![](y=4cos(pix3).png){width=60%}
     
